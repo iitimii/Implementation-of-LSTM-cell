@@ -5,6 +5,7 @@ Recurrent Neural Networks (RNN) are very effective for sequence tasks, such as l
 They are very effective at processing sequence data because they have some sort of memory.
 
 LSTM (Long Short-Term Memory) networks are a type of recurrent neural network (RNN) that are able to process sequential data more effectively LSTMs are able to process data with long-term dependencies by introducing a "memory" cell and gates that control the flow of information in and out of the cell. This allows LSTMs to selectively keep or forget information from previous time steps, allowing them to better handle long sequences of data. LSTMs are widely used in various deep learning tasks, such as natural language understanding, speech recognition and time series forecasting
+![lstm](https://user-images.githubusercontent.com/106264110/212042636-cbb3c592-b3f8-460e-8b80-e7d3cb87392d.png)
 
 LSTMs are trained using optimization algorithms such as Gradient Descent to minimize the error between the predicted output and the true output, thus allowing the network to learn the optimal values of the parameters.
 
